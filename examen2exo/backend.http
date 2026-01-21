@@ -1,0 +1,9 @@
+#create user
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "username": "kamil",
+  "password": "kamil123"
+}
+
